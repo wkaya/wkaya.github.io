@@ -1,6 +1,6 @@
 ---
 layout: post
-title: kaya's Test Post
+title: Kaya's Test Post
 ---
 
 This is a test post. 
