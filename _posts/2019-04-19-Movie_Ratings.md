@@ -55,8 +55,8 @@ We can confirm that polynomial regression was unnecessary by looking at the resi
 
 
 
-Data source: [Box Office Mojo](https://www.boxofficemojo.com/people/?view=Producer&p=.htm)
-             [IMDB](https://www.imdb.com/interfaces/)
+Data source: [Box Office Mojo](https://www.boxofficemojo.com/people/?view=Producer&p=.htm) / 
+             [IMDB](https://www.imdb.com/interfaces/) / 
              [Kaggle IMDB 5000 Movie Dataset](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset)
 
 
