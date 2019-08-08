@@ -33,31 +33,31 @@ In the same vein, the provax group shows political interests in the Brexit Remai
 Although only the top 5 topics were shown in the above cases, we can use clustering techniques to group together more of the other (say, the top 30) topics to visualize how they're distributed. For example, using K-Means clustering or DBSCAN clustering, the high dimensions in the topic space can be compressed to 3D space for visualizing with T-SNE.
 
 K-Means
-Cluster # | tweets
----|---:|
-0 | 1922
-3 | 28
-1 | 20
-4 | 15
-2 | 15
+| Cluster # | tweets |
+| ---|---:|
+| 0 | 1922 |
+| 3 | 28 |
+| 1 | 20 |
+| 4 | 15 |
+| 2 | 15 |
 ![K-Means clusters with T-SNE]({{ site.url }}/images/c7.gif)
 
 DBSCAN
-Cluster # | tweets
----:|---:|
-0 | 1808
--1 | 95
-4 | 20
-7 | 19
-3 | 15
-5 | 14
-11 | 6
-6 | 6
-9 | 5
-10 | 3
-8 | 3
-2 | 3
-1 | 3
+| Cluster # | tweets |
+| ---:|---:|
+| 0 | 1808 |
+| -1 | 95 |
+| 4 | 20 |
+| 7 | 19 |
+| 3 | 15 |
+| 5 | 14 |
+| 11 | 6 |
+| 6 | 6 |
+| 9 | 5 |
+| 10 | 3 |
+| 8 | 3 |
+| 2 | 3 |
+| 1 | 3 |
 ![DBSCAN clusters with T-SNE]({{ site.url }}/images/c8.gif)
 
 In these visualizations, the yellow dots represent the most salient tweets, Cluster 0, from antivax users. The 4 other clusters assigned by the K-Means algorithm only take up a few regions in the space. With DBSCAN clustering, the black dots scattered randomly around the entire space are actually the noise designated by DBSCAN, meaning they don’t belong in any of the 12 clusters.
