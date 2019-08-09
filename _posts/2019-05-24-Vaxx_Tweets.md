@@ -34,7 +34,7 @@ Although only the top 5 topics were shown in the above cases, we can use cluster
 
 K-Means
 
-| Cluster # | tweets |
+| Cluster # <img width=1/> | tweets <img width=1/> |
 | ---:|---:|
 | 0 | 1922 |
 | 3 | 28 |
@@ -46,7 +46,7 @@ K-Means
 
 DBSCAN
 
-| Cluster # | tweets |
+| Cluster # <img width=1/> | tweets <img width=1/> |
 | ---:|---:|
 | 0 | 1808 |
 | -1 | 95 |
